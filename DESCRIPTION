@@ -1,0 +1,31 @@
+Type: Compendium
+Package: cochrane-updating
+Title: Cochrane reviews updated in 2003
+Version: 0.0.1
+Authors@R: 
+    person(given = "Hilda",
+           family = "Bastian",
+           role = c("aut", "cre"),
+           email = "hildabast@gmail.com",
+           comment = c(ORCID = "0000-0001-8544-7386")),
+    person(given = "Jenny",
+           family = "Doust",
+           role = c("aut"),
+           comment = c(ORCID = "0000-0002-4024-9308")),
+   person(given = "Mike",
+           family = "Clarke",
+           role = c("aut"),
+           comment = c(ORCID = "0000-0002-2926-7257")),
+   person(given = "Paul",
+           family = "Glasziou",
+           role = c("aut"),
+           comment = c(ORCID = "0000-0001-7564-073X"))
+           )
+           
+Description: This is the repository for a longitudinal study of Cochrane reviews that were updated in 2003
+License: gpl-3.0 (GNU General Public License v3.0)
+Depends: 
+    reshape2,
+    tidyverse
+Encoding: UTF-8
+LazyData: true
